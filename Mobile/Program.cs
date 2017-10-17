@@ -14,7 +14,7 @@ namespace Mobile
         static void Main(string[] args) => new Program().Run().GetAwaiter().GetResult();
         private static string _authority = "http://localhost:63115";
         private static string _api = "http://localhost:64665";
-        private string _aliceRefreshToken = "7fb83d90a4ff23d13b745d54e370b934a44eee30df63f78d5fe53b98ba7395b3";
+        private string _aliceRefreshToken = "";
         private async Task Run()
         {
             Console.WriteLine("Hello World!");
